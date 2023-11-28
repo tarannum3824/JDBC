@@ -9,7 +9,7 @@ class Main{
     public static void main(String [] args) throws ClassNotFoundException{
         String url="jdbc:mysql://localhost:3306/mydatabase";
         String username="root";
-        String password="Abh@y2204";
+        String password="......";
         String query="INSERT INTO employee(id,name,job_title,salary) values(23,'kiran','full stack developer',75000); ";
         try{
             Class.forName("com.mysql.jdbc.Driver");
